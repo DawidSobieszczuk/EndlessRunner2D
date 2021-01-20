@@ -1,0 +1,1 @@
+android_camera_room_start();
