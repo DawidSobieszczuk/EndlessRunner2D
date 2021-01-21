@@ -1,3 +1,11 @@
 // Position update
-current_path = clamp(current_path, 0, paths_count-1)
-x = paths_positions[current_path];
+
+if(is_moving) {
+	x += dir * move_speed;
+	
+	if(dir > 0 && x >= next_x || dir < 0 && x <= next_x) {
+		x = next_x;
+		is_moving = false;
+	}
+}
+
