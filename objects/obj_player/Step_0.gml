@@ -7,5 +7,12 @@ if(is_moving) {
 		x = next_x;
 		is_moving = false;
 	}
+} else {
+	if(flick_vel_x > 0) {
+		move(1);
+	} else if(flick_vel_x < 0) {
+		move(-1);
+	}
+	
+	flick_vel_x = 0;
 }
-

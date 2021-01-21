@@ -29,3 +29,6 @@ dir = 0;
 move_speed = 20;
 
 x = paths_positions[current_path];
+
+// Input
+flick_vel_x = 0.0;
