@@ -1,3 +1,8 @@
+if(lives < 0) {
+	// Game Over
+}
+
+
 // Position update
 if(is_moving) {
 	x += dir * move_speed;

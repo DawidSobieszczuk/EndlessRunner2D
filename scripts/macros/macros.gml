@@ -1,0 +1,1 @@
+#macro PLAYER_START_LIVES 3;
