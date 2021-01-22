@@ -26,6 +26,8 @@ next_x = 0;
 dir = 0;
 move_speed = 20;
 
+coins = 0; // Later move to GUI manager
+
 x = paths_positions[current_path];
 
 // Input

@@ -1,11 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"obj_level_object","path":"objects/obj_level_object/obj_level_object.yy",},"order":1,},
+    {"id":{"name":"obj_level_base","path":"objects/obj_level_base/obj_level_base.yy",},"order":1,},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"spr_coin","path":"sprites/spr_coin/spr_coin.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
+    {"id":{"name":"macros","path":"scripts/macros/macros.yy",},"order":5,},
     {"id":{"name":"obj_level_coin","path":"objects/obj_level_coin/obj_level_coin.yy",},"order":0,},
     {"id":{"name":"globals","path":"scripts/globals/globals.yy",},"order":4,},
     {"id":{"name":"functions","path":"scripts/functions/functions.yy",},"order":3,},

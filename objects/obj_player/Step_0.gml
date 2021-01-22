@@ -1,5 +1,4 @@
 // Position update
-
 if(is_moving) {
 	x += dir * move_speed;
 	
