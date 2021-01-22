@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "camera",
-    "path": "folders/scripts/camera.yy",
+    "name": "scripts",
+    "path": "folders/scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "android_camera_functions",
+  "name": "globals",
   "tags": [],
   "resourceType": "GMScript",
 }
