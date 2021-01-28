@@ -12,6 +12,8 @@ function android_camera_create(_width){
 		camera_view_width = _width;
 		camera_view_height = (display_get_height() / display_get_width()) * _width;
 	}
+	
+	display_set_gui_size(camera_view_width, camera_view_height);
 }
 
 /// TODO

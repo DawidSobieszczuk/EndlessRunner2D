@@ -1,7 +1,4 @@
-if(lives < 0) {
-	// Game Over
-}
-
+if(global.is_pause) exit;
 
 // Position update
 if(is_moving) {

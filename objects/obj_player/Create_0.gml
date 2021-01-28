@@ -1,4 +1,5 @@
 function move(_dir) {
+	if(global.is_pause) { return; }	
 	_dir = sign(_dir);
 	
 	if(!is_moving) {
@@ -25,8 +26,6 @@ is_moving = false;
 next_x = 0;
 dir = 0;
 move_speed = 20;
-
-lives = PLAYER_START_LIVES;
 
 x = paths_positions[current_path];
 

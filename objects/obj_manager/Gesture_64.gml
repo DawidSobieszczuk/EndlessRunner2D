@@ -1,0 +1,1 @@
+gui_global_tap();
